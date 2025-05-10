@@ -66,7 +66,7 @@ db_manager_app/
 │ ├── test_connections.py           # Pruebas de conexión y ejecución de queries
 │ ├── test_export_import.py         # Pruebas de importación y exportación
 │ └── test_utils.py                 # Pruebas de utilidades
-├── setup.py                       # Script para empaquetar como módulo instalable
+├── setup.py                        # Script para empaquetar como módulo instalable
 ├── requirements.txt                # Dependencias
 ├── pyproject.toml                  # Configuración estándar de empaquetado (PEP 621)
 ├── pytest.ini                      # Configuración para la ejecucion de los test
