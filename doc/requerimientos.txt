@@ -1,0 +1,76 @@
+Requerimientos Funcionales
+
+    Conexión a múltiples motores de bases de datos:
+        MySQL, SQLite, PostgreSQL, SQL Server, MongoDB.
+        Guardar y gestionar conexiones favoritas.
+
+    Explorador de objetos:
+        Ver Tablas, Vistas, Procedimientos, Funciones, Disparadores, Índices.
+        Ver y gestionar Usuarios y Roles (si el motor lo soporta).
+
+    Importación / Exportación:
+        Exportar estructura o datos (CSV, JSON, SQL).
+        Importar datos (CSV, JSON).
+        Clonar bases de datos o exportarlas completamente.
+
+    Interfaz de Usuario:
+        Tabla con paginación para grandes volúmenes.
+        Buscador rápido de objetos.
+        Paneles dinámicos y modales intuitivos.
+
+Requerimientos No Funcionales
+
+    Portable: 
+        Empaquetable con PyInstaller.
+
+    Seguro: 
+        Evitar inyecciones SQL, usar conexiones cifradas si es posible.
+
+    Extensible: 
+        Arquitectura basada en clases y controladores.
+
+    Fácil de mantener: 
+        Separación de lógica/UI.
+
+    Alto rendimiento: 
+        Carga bajo demanda de objetos pesados.
+
+    Intuitiva: 
+        UI con íconos, menús contextuales, accesos rápidos.
+
+    Internacionalización (opcional).
+
+Detalles Técnicos
+    Librerías Recomendadas
+    UI:
+        flet (interfaz reactiva multiplataforma)
+        pandas (manejo de datos para exportación/importación)
+        rich (salida visual en consola, útil para debug)
+        cryptography (para guardar contraseñas cifradas)
+
+    DB Drivers:
+
+        MySQL: 
+            mysql-connector-python o PyMySQL
+
+        SQLite: 
+            sqlite3 (built-in)
+
+        PostgreSQL: 
+            psycopg2
+
+        SQL Server: 
+            pyodbc
+
+        MongoDB: 
+            pymongo
+
+    Empaquetado:
+        pyinstaller o briefcase
+
+Seguridad
+    Conexiones seguras (SSL si es posible).
+    Contraseñas cifradas en archivo local.
+    Evitar uso de eval/exec.
+    Validación estricta de entrada del usuario.
+    Uso de parámetros en consultas.

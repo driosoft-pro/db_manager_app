@@ -1,0 +1,26 @@
+# Interfaz de usuario
+flet>=0.12.0
+
+# Conectores para bases de datos
+mysql-connector-python>=8.0
+PyMySQL>=1.1.0
+psycopg2>=2.9.9
+pyodbc>=5.1.0
+pymongo>=4.6.1
+
+# Manejo de datos y exportaciones
+pandas>=2.2.2
+openpyxl>=3.1.2
+
+# Seguridad
+cryptography>=42.0.5
+
+# Utilidades
+python-dotenv>=1.0.1
+
+# Empaquetado (opcional para distribuciones)
+pyinstaller>=6.5.0
+
+# Para pruebas
+pytest>=8.2.1
+pytest-cov>=4.1.0
