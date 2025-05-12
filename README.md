@@ -178,9 +178,7 @@ Este proyecto está licenciado bajo la **MIT License**.
 ## ✍️ Autor
 
 ✍️ **Desarrollado por:** **Deyton Riasco Ortiz**  
-🗓️ **Fecha:** 2025  
-📧 **Contacto:** [deyton007@gmail.com](mailto:deyton007@gmail.com)
-
+🗓️ **Fecha:** 2025 
 ---
 
 # 🌐 Feedback
